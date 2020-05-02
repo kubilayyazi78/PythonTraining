@@ -8,5 +8,5 @@ elif  faktoriyel ==0:
     print("faktoriyel = : "+ str(faktoriyel))
 else:
     for fak in range(faktoriyel,0,-1):
-        toplam=toplam+(faktoriyel*faktoriyel-1)
+        toplam=toplam+(faktoriyel*fak-1)
 print(toplam)        
